@@ -16,4 +16,7 @@ Install Apache and PHP
 7. add the below line to the sudoers file
 8. www-data ALL=(ALL) NOPASSWD: ALL
 9. sudo chmod +x /var/www/html/relay.py
+10. to see the PHP page go to the following 
+11. http://localhost/index.php (on the pi itself)
+12. http://<raspberrypiIP>/index.php (via another device on the same network. 
 
